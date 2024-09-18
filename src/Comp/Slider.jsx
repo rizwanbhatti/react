@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 // import abc from '../Img/.1.jpg'
 // import viteSvg from '../../public/Img/1.jpg'
 
-// import abc from'../assets/Image/1.jpg'
+import abc from'../assets/Image/2.jpg'
 
 function DarkVariantExample() {
   return (
@@ -21,7 +21,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={"../assets/Image/1.jpg"}
+          src={abc}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -32,7 +32,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src='../assets/Image/1.jpg'
+          src={'../assets/Image/1.jpg'}
           alt="Third slide"
         />
         <Carousel.Caption>
