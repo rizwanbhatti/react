@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 // import abc from '../Img/.1.jpg'
 // import viteSvg from '../../public/Img/1.jpg'
 
+// import abc from'../assets/Image/1.jpg'
+
 function DarkVariantExample() {
   return (
     <Carousel data-bs-theme="dark">
@@ -19,7 +21,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={"Img/2.jpg"}
+          src={"../assets/Image/1.jpg"}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,7 +32,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={"Img/3.jpg"}
+          src='../assets/Image/1.jpg'
           alt="Third slide"
         />
         <Carousel.Caption>
